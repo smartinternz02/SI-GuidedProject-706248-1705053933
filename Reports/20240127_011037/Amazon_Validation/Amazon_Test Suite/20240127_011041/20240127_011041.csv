@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test Suite,,,,27-01-2024 01:11:01,27-01-2024 01:11:48,46.828s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Registration_001,,,,27-01-2024 01:11:01,27-01-2024 01:11:26,24.320s,FAILED
+"openBrowser("""")",,,,27-01-2024 01:11:02,27-01-2024 01:11:26,23.834s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Sign In_002,,,,27-01-2024 01:11:26,27-01-2024 01:11:35,9.371s,FAILED
+"openBrowser("""")",,,,27-01-2024 01:11:26,27-01-2024 01:11:35,9.267s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Search_003,,,,27-01-2024 01:11:35,27-01-2024 01:11:40,4.907s,FAILED
+"openBrowser("""")",,,,27-01-2024 01:11:35,27-01-2024 01:11:40,4.805s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Add to Cart_004,,,,27-01-2024 01:11:40,27-01-2024 01:11:43,3.398s,FAILED
+"openBrowser("""")",,,,27-01-2024 01:11:40,27-01-2024 01:11:43,3.274s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Orders_005,,,,27-01-2024 01:11:43,27-01-2024 01:11:48,4.471s,FAILED
+"openBrowser("""")",,,,27-01-2024 01:11:44,27-01-2024 01:11:48,4.290s,FAILED

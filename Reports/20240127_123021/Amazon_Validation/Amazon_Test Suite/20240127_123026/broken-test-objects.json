@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Registration_OR/Page_Amazon Sign-In/a_Create your Amazon account",
+      "brokenLocator": "//a[@id\u003d\u0027createAccountSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240127_123021/Amazon_Validation/Amazon_Test Suite/20240127_123026/Object Repository/Amazon_Registration_OR/Page_Amazon Sign-In/a_Create your Amazon account_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}
