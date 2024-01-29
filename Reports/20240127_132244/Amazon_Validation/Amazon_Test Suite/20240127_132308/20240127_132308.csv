@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test Suite,Firefox 122.0,,,27-01-2024 13:23:31,27-01-2024 13:38:14,14m - 42.840s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Registration_001,Firefox 122.0,,,27-01-2024 13:23:32,27-01-2024 13:25:46,2m - 13.844s,PASSED
+"openBrowser("""")",Firefox 122.0,,,27-01-2024 13:23:33,27-01-2024 13:24:31,58.352s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,27-01-2024 13:24:31,27-01-2024 13:24:41,9.900s,PASSED
+maximizeWindow(),Firefox 122.0,,,27-01-2024 13:24:41,27-01-2024 13:24:41,0.309s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Firefox 122.0,,,27-01-2024 13:24:41,27-01-2024 13:25:02,20.936s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Firefox 122.0,,,27-01-2024 13:25:02,27-01-2024 13:25:16,14.037s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_customerName""), ""Nitheeshaaa"")",Firefox 122.0,,,27-01-2024 13:25:16,27-01-2024 13:25:24,7.674s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_email""), ""6302737617"")",Firefox 122.0,,,27-01-2024 13:25:24,27-01-2024 13:25:26,1.951s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Registration/span_US 1""))",Firefox 122.0,,,27-01-2024 13:25:26,27-01-2024 13:25:28,2.460s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Registration/a_India 91""))",Firefox 122.0,,,27-01-2024 13:25:28,27-01-2024 13:25:31,2.414s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_password""), ""J8q1Kij5A04="")",Firefox 122.0,,,27-01-2024 13:25:31,27-01-2024 13:25:33,2.120s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_passwordCheck""), ""J8q1Kij5A04="")",Firefox 122.0,,,27-01-2024 13:25:33,27-01-2024 13:25:34,1.377s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Registration_OR/Page_Amazon Registration/inputcontinue""))",Firefox 122.0,,,27-01-2024 13:25:34,27-01-2024 13:25:37,2.995s,PASSED
+closeBrowser(),Firefox 122.0,,,27-01-2024 13:25:37,27-01-2024 13:25:46,8.520s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Sign In_002,Firefox 122.0,,,27-01-2024 13:25:46,27-01-2024 13:28:50,3m - 4.051s,PASSED
+"openBrowser("""")",Firefox 122.0,,,27-01-2024 13:25:46,27-01-2024 13:27:23,1m - 37.726s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,27-01-2024 13:27:24,27-01-2024 13:28:03,39.711s,PASSED
+maximizeWindow(),Firefox 122.0,,,27-01-2024 13:28:03,27-01-2024 13:28:03,0.011s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign In_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Firefox 122.0,,,27-01-2024 13:28:03,27-01-2024 13:28:20,16.722s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/input_email""), ""nitheeshaboggavarapu@gmail.com"")",Firefox 122.0,,,27-01-2024 13:28:20,27-01-2024 13:28:28,8.162s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/inputcontinue""))",Firefox 122.0,,,27-01-2024 13:28:28,27-01-2024 13:28:33,4.640s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/input_password""), ""nRJItQ52hW9bpRr794Hihg=="")",Firefox 122.0,,,27-01-2024 13:28:33,27-01-2024 13:28:34,1.197s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Firefox 122.0,,,27-01-2024 13:28:34,27-01-2024 13:28:42,7.617s,PASSED
+closeBrowser(),Firefox 122.0,,,27-01-2024 13:28:42,27-01-2024 13:28:50,8.143s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Search_003,Firefox 122.0,,,27-01-2024 13:30:04,27-01-2024 13:30:32,28.341s,FAILED
+"openBrowser("""")",Firefox 122.0,,,27-01-2024 13:30:04,27-01-2024 13:30:17,12.584s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,27-01-2024 13:30:17,27-01-2024 13:30:23,6.149s,PASSED
+maximizeWindow(),Firefox 122.0,,,27-01-2024 13:30:23,27-01-2024 13:30:23,0.019s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=baby-products-intl-ship"", true)",Firefox 122.0,,,27-01-2024 13:30:23,27-01-2024 13:30:32,9.570s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Add to Cart_004,Firefox 122.0,,,27-01-2024 13:33:12,27-01-2024 13:34:44,1m - 32.761s,FAILED
+"openBrowser("""")",Firefox 122.0,,,27-01-2024 13:33:12,27-01-2024 13:34:03,51.148s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,27-01-2024 13:34:03,27-01-2024 13:34:08,5.617s,PASSED
+maximizeWindow(),Firefox 122.0,,,27-01-2024 13:34:08,27-01-2024 13:34:08,0.012s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Firefox 122.0,,,27-01-2024 13:34:08,27-01-2024 13:34:44,35.904s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Orders_005,Firefox 122.0,,,27-01-2024 13:35:35,27-01-2024 13:36:59,1m - 23.812s,PASSED
+"openBrowser("""")",Firefox 122.0,,,27-01-2024 13:35:35,27-01-2024 13:35:46,11.011s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,27-01-2024 13:35:46,27-01-2024 13:35:54,8.138s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Orders_OR/Page_Amazon.com. Spend less. Smile more/span_nav-cart-icon nav-sprite""))",Firefox 122.0,,,27-01-2024 13:35:54,27-01-2024 13:36:10,15.803s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/span_Sign in to your account""))",Firefox 122.0,,,27-01-2024 13:36:10,27-01-2024 13:36:27,17.240s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/input_email""), ""nitheeshaboggavarapu@gmail.com"")",Firefox 122.0,,,27-01-2024 13:36:27,27-01-2024 13:36:32,4.695s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/inputcontinue""))",Firefox 122.0,,,27-01-2024 13:36:32,27-01-2024 13:36:36,4.304s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/input_password""), ""nRJItQ52hW9bpRr794Hihg=="")",Firefox 122.0,,,27-01-2024 13:36:36,27-01-2024 13:36:38,1.989s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Firefox 122.0,,,27-01-2024 13:36:38,27-01-2024 13:36:44,5.499s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/input_proceedToRetailCheckout""))",Firefox 122.0,,,27-01-2024 13:36:44,27-01-2024 13:36:55,11.599s,PASSED
+closeBrowser(),Firefox 122.0,,,27-01-2024 13:36:55,27-01-2024 13:36:59,3.517s,PASSED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_Search_DD,Firefox 122.0,,,27-01-2024 13:37:46,27-01-2024 13:38:14,28.311s,FAILED
+"openBrowser("""")",Firefox 122.0,,,27-01-2024 13:37:46,27-01-2024 13:37:58,11.544s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Firefox 122.0,,,27-01-2024 13:37:58,27-01-2024 13:38:10,11.893s,PASSED
+maximizeWindow(),Firefox 122.0,,,27-01-2024 13:38:10,27-01-2024 13:38:10,0.013s,PASSED
+"selectOptionByIndex(findTestObject(""Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/Category Element""), 5)",Firefox 122.0,,,27-01-2024 13:38:10,27-01-2024 13:38:14,4.471s,FAILED

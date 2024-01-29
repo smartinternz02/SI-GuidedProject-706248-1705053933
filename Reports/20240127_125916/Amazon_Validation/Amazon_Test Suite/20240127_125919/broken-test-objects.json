@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/span_Sign in to your account",
+      "brokenLocator": "//a[@id\u003d\u0027a-autoid-0-announce\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240127_125916/Amazon_Validation/Amazon_Test Suite/20240127_125919/Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/span_Sign in to your account_position.png"
+    }
+  ]
+}
