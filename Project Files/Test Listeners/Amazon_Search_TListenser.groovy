@@ -29,7 +29,6 @@ class Amazon_Search_TListenser {
 	 */
 	@BeforeTestCase
 	def sampleBeforeTestCase() {
-<<<<<<< HEAD
 		WebUI.click(findTestObject('Amazon_Sign In_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 		
 		WebUI.setText(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/input_email'), 'nitheeshaboggavarapu@gmail.com')
@@ -71,49 +70,4 @@ class Amazon_Search_TListenser {
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
 		println testSuiteContext.getTestSuiteId()
 	}
-=======
-		//WebUI.click(findTestObject('Amazon_Sign In_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
-		
-		WebUI.setText(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/input_email'), 'nitheeshaboggavarapu@gmail.com')
-		
-		WebUI.click(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/inputcontinue'))
-		
-		WebUI.setEncryptedText(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/input_password'), 'nRJItQ52hW9bpRr794Hihg==')
-		
-		WebUI.click(findTestObject('Amazon_Sign In_OR/Page_Amazon Sign-In/inputsignInSubmit'))
-		//println testCaseContext.getTestCaseId()
-		//println testCaseContext.getTestCaseVariables()
-	}
-
-	/**
-	 * Executes after every test case ends.
-	 * @param testCaseContext related information of the executed test case.
-	 */
-	@AfterTestCase
-	def sampleAfterTestCase() {
-		WebUI.focus(findTestObject('Amazon_TL_SearchItem_Validation_OR/Page_Amazon.com. Spend less. Smile more/span_Account  Lists_nav-icon nav-arrow'))
-		
-	    WebUI.click(findTestObject('Object Repository/Amazon_TL_SearchItem_Validation_OR/Page_Your Account/span_Sign Out'))
-		//println testCaseContext.getTestCaseId()
-		//println testCaseContext.getTestCaseStatus()
-	}
-
-	/**
-	 * Executes before every test suite starts.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 
-	@BeforeTestSuite
-	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-	}
-
-	/**
-	 * Executes after every test suite ends.
-	 * @param testSuiteContext: related information of the executed test suite.
-	 
-	@AfterTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
-	}*/
->>>>>>> branch 'main' of https://github.com/smartinternz02/SI-GuidedProject-706248-1705053933.git
 }

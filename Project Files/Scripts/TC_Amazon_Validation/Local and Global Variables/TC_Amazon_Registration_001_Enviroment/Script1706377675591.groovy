@@ -19,17 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.click(findTestObject('Amazon_Registration_Local and Global_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
+WebUI.click(findTestObject('Amazon_Registration_Local and Global_OR/Page_Amazon Sign-In/a_Create your Amazon account'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.setText(findTestObject('Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_customerName'), GlobalVariable.Name)
+
+WebUI.setText(findTestObject('Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_email'), GlobalVariable.Email)
+
+WebUI.setEncryptedText(findTestObject('Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_password'), 
+    'gWraoQDoqaK2Xu+cTfJh+A==')
+
+WebUI.setEncryptedText(findTestObject('Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_passwordCheck'), 
+    'gWraoQDoqaK2Xu+cTfJh+A==')
+
+WebUI.click(findTestObject('Amazon_Registration_Local and Global_OR/Page_Amazon Registration/inputcontinue'))
 
 WebUI.closeBrowser()
 

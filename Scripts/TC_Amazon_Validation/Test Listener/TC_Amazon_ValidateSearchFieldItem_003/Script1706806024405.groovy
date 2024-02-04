@@ -17,19 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+<<<<<<< HEAD
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.maximizeWindow()
+WebUI.selectOptionByLabel(findTestObject('Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/Category Element'), 
+    'Books', false)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.setText(findTestObject('Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
+    'Wings of Fire')
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
-
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
 WebUI.closeBrowser()
+=======
+//WebUI.openBrowser('')
+
+//WebUI.navigateToUrl('https://www.amazon.com/')
+
+WebUI.selectOptionByLabel(findTestObject('Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/Category Element'), 
+    'Books', false)
+
+WebUI.setText(findTestObject('Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
+    'Wings of Fire')
+
+WebUI.click(findTestObject('Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+
+//WebUI.closeBrowser()
+>>>>>>> branch 'main' of https://github.com/smartinternz02/SI-GuidedProject-706248-1705053933.git
 

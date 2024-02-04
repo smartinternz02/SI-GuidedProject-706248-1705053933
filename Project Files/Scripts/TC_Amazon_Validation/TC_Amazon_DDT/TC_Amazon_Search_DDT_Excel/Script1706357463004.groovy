@@ -23,13 +23,13 @@ WebUI.navigateToUrl('https://www.amazon.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.selectOptionByLabel(findTestObject('Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/Category Element'), 
+    CategoryItem, false)
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
+WebUI.setText(findTestObject('Object Repository/Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
+    Items)
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Object Repository/Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
 WebUI.closeBrowser()
 

@@ -21,15 +21,22 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_Local and Global_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_Local and Global_OR/Page_Amazon Sign-In/a_Create your Amazon account'))
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
+WebUI.setText(findTestObject('Object Repository/Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_customerName'), 
+    Name)
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.setText(findTestObject('Object Repository/Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_email'), Email)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_password'), 
+    'j8fLtIXZ+aU=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Registration_Local and Global_OR/Page_Amazon Registration/input_passwordCheck'), 
+    'j8fLtIXZ+aU=')
+
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_Local and Global_OR/Page_Amazon Registration/inputcontinue'))
 
 WebUI.closeBrowser()
 

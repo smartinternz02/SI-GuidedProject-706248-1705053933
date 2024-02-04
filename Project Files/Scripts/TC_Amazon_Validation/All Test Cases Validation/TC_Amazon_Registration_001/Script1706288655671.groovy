@@ -23,13 +23,25 @@ WebUI.navigateToUrl('https://www.amazon.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Sign-In/a_Create your Amazon account'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.setText(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_customerName'), 'Nitheeshaaa')
+
+WebUI.setText(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_email'), '6302737617')
+
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Registration/span_US 1'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Registration/a_India 91'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_password'), 
+    'J8q1Kij5A04=')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_passwordCheck'), 
+    'J8q1Kij5A04=')
+
+WebUI.click(findTestObject('Object Repository/Amazon_Registration_OR/Page_Amazon Registration/inputcontinue'))
 
 WebUI.closeBrowser()
 

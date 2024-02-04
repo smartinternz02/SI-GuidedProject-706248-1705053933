@@ -21,15 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Amazon_Orders_OR/Page_Amazon.com. Spend less. Smile more/span_nav-cart-icon nav-sprite'))
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.click(findTestObject('Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/span_Sign in to your account'))
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
+WebUI.setText(findTestObject('Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/input_email'), 'nitheeshaboggavarapu@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/inputcontinue'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/input_password'), 'nRJItQ52hW9bpRr794Hihg==')
+
+WebUI.click(findTestObject('Object Repository/Amazon_Orders_OR/Page_Amazon Sign-In/inputsignInSubmit'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/input_proceedToRetailCheckout'))
 
 WebUI.closeBrowser()
 

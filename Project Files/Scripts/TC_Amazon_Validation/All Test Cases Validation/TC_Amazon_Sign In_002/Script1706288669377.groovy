@@ -23,13 +23,15 @@ WebUI.navigateToUrl('https://www.amazon.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.click(findTestObject('Object Repository/Amazon_Sign In_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'))
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
+WebUI.setText(findTestObject('Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/input_email'), 'nitheeshaboggavarapu@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/inputcontinue'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/input_password'), 'nRJItQ52hW9bpRr794Hihg==')
+
+WebUI.click(findTestObject('Object Repository/Amazon_Sign In_OR/Page_Amazon Sign-In/inputsignInSubmit'))
 
 WebUI.closeBrowser()
 

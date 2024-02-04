@@ -3,7 +3,7 @@
    <description></description>
    <name>Amazon_Validation_Test Suite Collection</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
+   <delayBetweenInstances>4</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>3</maxConcurrentInstances>
    <testSuiteRunConfigurations>

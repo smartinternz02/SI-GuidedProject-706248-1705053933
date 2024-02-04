@@ -21,15 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.maximizeWindow()
+WebUI.selectOptionByLabel(findTestObject('Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 'Electronics', 
+    false)
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.setText(findTestObject('Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 'Mouse')
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
-    'Mouse')
+WebUI.click(findTestObject('Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Amazon_Checkponit_Test Data/Checkpoint_Test Data_Search_003'), true)
 
 WebUI.closeBrowser()
 

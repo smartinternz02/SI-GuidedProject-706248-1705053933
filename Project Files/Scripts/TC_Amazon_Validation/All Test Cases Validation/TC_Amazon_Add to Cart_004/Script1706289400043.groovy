@@ -23,13 +23,23 @@ WebUI.navigateToUrl('https://www.amazon.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.selectOptionByLabel(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/Category_Element'), 
-    'Electronics', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+    'search-alias=electronics-intl-ship', true)
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
+WebUI.setText(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
     'Mouse')
 
-WebUI.click(findTestObject('Object Repository/Amazon_Search_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com  Mouse/span_Amazon Basics 2.4 Ghz Wireless Optical_dbf87c'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com Amazon Basics 2.4 Ghz Wirel_3fd674/span_Quantity1'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com Amazon Basics 2.4 Ghz Wirel_3fd674/a_5'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com Amazon Basics 2.4 Ghz Wirel_3fd674/input_gift-wrap'))
+
+WebUI.click(findTestObject('Object Repository/Amazon_Add to Cart_OR/Page_Amazon.com Amazon Basics 2.4 Ghz Wirel_3fd674/input_submit.add-to-cart'))
 
 WebUI.closeBrowser()
 
