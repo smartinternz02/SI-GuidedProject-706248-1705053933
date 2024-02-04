@@ -1,1 +1,0 @@
-Amazon_Automation_Testing_using_katalon
