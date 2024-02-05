@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Amazon_Validation_Internal Data,Chrome 121.0.0.0,,,05-02-2024 23:12:44,05-02-2024 23:15:40,2m - 55.250s,FAILED
+,,,,,,,
+Test Cases/TC_Amazon_Validation/TC_Amazon_DDT/TC_Amazon_Search_DDT_Internal Data,Chrome 121.0.0.0,,,05-02-2024 23:12:44,05-02-2024 23:15:40,2m - 55.048s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,05-02-2024 23:12:45,05-02-2024 23:14:08,1m - 23.302s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,05-02-2024 23:14:08,05-02-2024 23:14:14,6.120s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,05-02-2024 23:14:14,05-02-2024 23:14:15,0.450s,PASSED
+"selectOptionByLabel(findTestObject(""Amazon_Validation_Drop Down/Page_Amazon.com. Spend less. Smile more/Category Element""), findTestData(""Amazon_Test Data/Amazon_Test Data_Internal_Category"").getValue(1, 1), false)",Chrome 121.0.0.0,,,05-02-2024 23:14:15,05-02-2024 23:15:40,1m - 24.938s,FAILED
