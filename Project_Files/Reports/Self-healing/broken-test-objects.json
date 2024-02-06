@@ -1,3 +1,54 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Orders_OR/Page_Amazon/inputinput-box-otp",
+      "brokenLocator": "//input[@id\u003d\u0027input-box-otp\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/span_Sign in to your account",
+      "brokenLocator": "//a[@id\u003d\u0027a-autoid-0-announce\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/a/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/span_Sign in to your account_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Orders_OR/Page_Amazon.com Shopping Cart/input_proceedToRetailCheckout",
+      "brokenLocator": "//input[@name\u003d\u0027proceedToRetailCheckout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Registration_OR/Page_Amazon Sign-In/a_Create your Amazon account",
+      "brokenLocator": "//a[@id\u003d\u0027createAccountSubmit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon_Registration_OR/Page_Amazon Sign-In/a_Create your Amazon account_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Registration_OR/Page_Amazon Registration/input_customerName",
+      "brokenLocator": "//input[@id\u003d\u0027ap_customer_name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }
